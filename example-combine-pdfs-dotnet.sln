@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "example-combine-pdfs-dotnet", "example-combine-pdfs-dotnet.csproj", "{1304DCD3-30CF-4DB0-9967-8D800601BB11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1304DCD3-30CF-4DB0-9967-8D800601BB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1304DCD3-30CF-4DB0-9967-8D800601BB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1304DCD3-30CF-4DB0-9967-8D800601BB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1304DCD3-30CF-4DB0-9967-8D800601BB11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C11818F6-0B66-4D08-AF0D-6CB47826F2AF}
+	EndGlobalSection
+EndGlobal
