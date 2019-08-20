@@ -17,7 +17,7 @@ namespace example_combine_pdfs_dotnet
 
         // Combines PDF documents.
         // This code uses the DynamicPDF Merger for .NET product.
-        // Import the ceTe.DynamicPDF.Merger namespace for the MergeDocument class.
+        // Use the ceTe.DynamicPDF.Merger namespace for the MergeDocument class.
         private static void CombinePDFs()
         {
             //Create MergeDocument object and append PDFs
@@ -26,26 +26,26 @@ namespace example_combine_pdfs_dotnet
             document.Append(GetResourcePath("doc-c.pdf"), 1, 2);
 
             //Save merged document
-            document.Draw("output.pdf");
+            document.Draw("output-combined.pdf");
         }
 
         // Combines PDF documents with options.
         // This code uses the DynamicPDF Merger for .NET product.
-        // Import the ceTe.DynamicPDF.Merger namespace for the MergeDocument class.
+        // Use the ceTe.DynamicPDF.Merger namespace for the MergeDocument class.
         private static void CombinePDFsWithOptions()
         {
             //Create MergeOptions with different settings
             MergeOptions options = MergeOptions.Append;
-            options.FormFields = false;
+            options.Outlines = false;
 
             //Create MergeDocument object
             MergeDocument document = new MergeDocument();
 
             // Append a document with options
-            document.Append(GetResourcePath("doc-a.pdf"), options);
+            document.Append(GetResourcePath("doc-with-outline.pdf"), options);
 
             //Save document
-            document.Draw("output.pdf");
+            document.Draw("output-with-options.pdf");
         }
 
         // This is a helper function to get a full path to a file in the Resources folder.
